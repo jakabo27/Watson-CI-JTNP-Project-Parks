@@ -9,6 +9,9 @@ There isn't exactly a set order you need to run the notebooks in, and you defini
 This is the way we recommend gathering tweets about a subject. It is slow but thorough. 
 Uses the Twint library to scrape all tweets based on a search term and put them into a CSV file.  It also has some code at the end to combine the CSV's together but it doesn't work perfectly.  Use [MergeCSV](https://www.filesmerge.com/merge-csv-files) for combining your CSV's in the end
 
+**Clean_data.ipynb**
+What we used to clean the tweets such as removing URLs, special characters, weird symbols, etc.  
+
 **Twitter_Scraper.ipynb**
 We initially used this to gather tweets but some groups have been running into consistency issues with it.  It uses the TwitterScraper library to scrape tweets 
 
